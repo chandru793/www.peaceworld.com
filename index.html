@@ -33,7 +33,7 @@
   <body>
     <!--navbar starts-->
     <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
-      <a class="navbar-brand" href="#">Peace</a>
+      <a class="navbar-brand" href="#hero">Peace</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -49,60 +49,30 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link" href="#intro"
               >Intro <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Symbols</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#symbols">Symbols</a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Types
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <li class="nav-item active">
+            <a class="nav-link" href="#questions">Do know</a>
           </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
+          <li class="nav-item active">
+            <a class="nav-link" href="#types">Types</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#review">Reviews</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
       </div>
     </nav>
     <!--navbar ends-->
 
     <!--hero start-->
     <section class="hero d-flex align-items-center">
-      <div class="container text-center rellax">
+      <div class="container text-center rellax" id="hero">
         <span
           class="text-black bg-white font-weight-bold hero-title hero-tagline"
         >
@@ -171,7 +141,7 @@
         <!--col right end-->
       </div>
 
-      <div class="container mt-5">
+      <div class="container mt-5" id="symbols">
         <div class="card-deck">
           <div class="card">
             <i class="fas fa-peace intro-icon mt-4"></i>
@@ -227,7 +197,7 @@
 
     <!--services start-->
     <section class="py-5">
-      <div class="container-fluid px-xl-0 d-xl-flex">
+      <div class="container-fluid px-xl-0 d-xl-flex" id="questions">
         <div class="col-12 col-xl-6 px-xl-0">
           <img src="c1.jpg" alt="" class="img-fluid" />
         </div>
@@ -334,7 +304,7 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid px-xl-0 d-flex flex-wrap">
+      <div class="container-fluid px-xl-0 d-flex flex-wrap" id="types">
         <div
           class="col-12 col-xl-6 d-xl-flex align-items-center order-2 order-xl-1 my-4"
         >
@@ -369,6 +339,7 @@
               <div
                 class="tab-pane fade show active"
                 id="pills-home"
+                id="internal"
                 role="tabpanel"
                 aria-labelledby="pills-home-tab"
               >
@@ -403,6 +374,7 @@
               <div
                 class="tab-pane fade"
                 id="pills-profile"
+                id="eternal"
                 role="tabpanel"
                 aria-labelledby="pills-profile-tab"
               >
@@ -440,7 +412,7 @@
 
     <!--testimonal start-->
     <section class="py-5">
-      <div class="container">
+      <div class="container" id="review">
         <h2 class="text-center font-weight-bold mb-4">
           What does other's think...
         </h2>
